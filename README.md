@@ -1,8 +1,8 @@
-# Lansee 对话助手平台
+# BeautyMedAI 对话助手平台
 
 ## 项目概述
 
-Lansee 对话助手平台是一个完整的AI对话系统，别名是YISIA，包含前端界面、后端服务和算法服务三个主要组件。
+BeautyMedAI 对话助手平台是一个完整的AI对话系统，别名是YISIA，包含前端界面、后端服务和算法服务三个主要组件。
 
 ## 架构设计
 
@@ -105,7 +105,7 @@ Lansee 对话助手平台是一个完整的AI对话系统，别名是YISIA，包
 ## 项目结构
 
 ```
-lansee_chatbot/
+BeautyMedAI_chatbot/
 ├── algorithm_services/     # 算法服务 (现有)
 ├── frontend_services/      # 前端服务 (现有 + 增强版)
 ├── backend_services/       # 后端服务 (新增)
@@ -335,7 +335,7 @@ node server.js --port 3001
 ### 后端服务配置 (.env)
 ```env
 # 项目配置
-PROJECT_NAME=Lansee Backend Services
+PROJECT_NAME=BeautyMedAI Backend Services
 VERSION=1.0.0
 API_V1_STR=/api/v1
 
@@ -359,7 +359,7 @@ MINIO_ENDPOINT=localhost:9000
 MINIO_ACCESS_KEY=minioadmin
 MINIO_SECRET_KEY=minioadmin
 MINIO_SECURE=false
-STORAGE_BUCKET_NAME=lansee-chatbot
+STORAGE_BUCKET_NAME=BeautyMedAI-chatbot
 
 # RAG配置
 RAG_TOP_K=5
