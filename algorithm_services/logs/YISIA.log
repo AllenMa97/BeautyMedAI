@@ -1,0 +1,95 @@
+2026-04-15 10:35:48 - YISIA - INFO - 日志系统初始化完成
+2026-04-15 10:35:50 - YISIA - INFO - 加载服务商[aliyun]配置：默认模型=qwen-plus，模型映射={'qwen-flash': 'qwen-flash', 'qwen-turbo': 'qwen-turbo', 'qwen-plus': 'qwen-plus', 'qwen-long': 'qwen-long', 'qwen-vl-plus': 'qwen-vl-plus', 'qwen-vl-max-latest': 'qwen-vl-max-latest', 'qwen2.5-7b-instruct': 'qwen2.5-7b-instruct', 'qwen2.5-14b-instruct': 'qwen2.5-14b-instruct', 'qwen-coder-plus-latest': 'qwen-coder-plus-latest', 'qwen-coder-turbo-0919': 'qwen-coder-turbo-0919', 'qwen-math-plus': 'qwen-math-plus', 'qwen-math-turbo': 'qwen-math-turbo'}，API Keys=3个
+2026-04-15 10:35:50 - YISIA - INFO - [Key检测] 开始并行检测服务商[aliyun]的API Keys...
+2026-04-15 10:36:03 - YISIA - INFO - [Key检测] Key 1 ✅ 可用，支持模型: 12个 - ['qwen-flash', 'qwen-turbo', 'qwen-plus', 'qwen-long', 'qwen-vl-plus', 'qwen-vl-max-latest', 'qwen2.5-7b-instruct', 'qwen2.5-14b-instruct', 'qwen-coder-plus-latest', 'qwen-coder-turbo-0919', 'qwen-math-plus', 'qwen-math-turbo']
+2026-04-15 10:36:03 - YISIA - INFO - [Key检测] Key 2 ✅ 可用，支持模型: 11个 - ['qwen-turbo', 'qwen-plus', 'qwen-long', 'qwen-vl-plus', 'qwen-vl-max-latest', 'qwen2.5-7b-instruct', 'qwen2.5-14b-instruct', 'qwen-coder-plus-latest', 'qwen-coder-turbo-0919', 'qwen-math-plus', 'qwen-math-turbo']
+2026-04-15 10:36:03 - YISIA - INFO - [Key检测] Key 3 ✅ 可用，支持模型: 12个 - ['qwen-flash', 'qwen-turbo', 'qwen-plus', 'qwen-long', 'qwen-vl-plus', 'qwen-vl-max-latest', 'qwen2.5-7b-instruct', 'qwen2.5-14b-instruct', 'qwen-coder-plus-latest', 'qwen-coder-turbo-0919', 'qwen-math-plus', 'qwen-math-turbo']
+2026-04-15 10:36:03 - YISIA - INFO - [Key检测] 服务商[aliyun] 有效Key数量: 3/3
+2026-04-15 10:36:03 - YISIA - INFO - 服务商[glm]配置不完整，跳过加载
+2026-04-15 10:36:03 - YISIA - INFO - 服务商[lansee]配置不完整，跳过加载
+2026-04-15 10:36:05 - YISIA - INFO - 加载进化状态: 知识0条, 行为0条
+2026-04-15 10:36:05 - YISIA - INFO - 加载 behavior 知识: 90 条
+2026-04-15 10:36:05 - YISIA - INFO - 加载 feature 知识: 39 条
+2026-04-15 10:36:05 - YISIA - INFO - 加载 interaction 知识: 4 条
+2026-04-15 10:36:05 - YISIA - INFO - 新建设 correction 知识库
+2026-04-15 10:36:05 - YISIA - INFO - SelfEvolutionManager init, knowledge: behavior=90, feature=39, interaction=4, correction=0
+2026-04-15 10:36:05 - YISIA - INFO - 加载违规词表: 8 条
+2026-04-15 10:36:05 - YISIA - INFO - 关键词检测器初始化成功
+2026-04-15 10:36:05 - YISIA - INFO - MCP 工具注册完成，共 12 个工具
+2026-04-15 10:36:05 - YISIA - INFO - MCP 工具注册完成，共 12 个工具
+2026-04-15 10:36:06 - YISIA - INFO - 开始初始化基础服务...
+2026-04-15 10:36:06 - YISIA - INFO - 正在并行预热时间地理位置和热点话题服务...
+2026-04-15 10:36:06 - YISIA - INFO - 正在预热时间地理位置工具...
+2026-04-15 10:36:06 - YISIA - INFO - 正在预热热搜话题工具...
+2026-04-15 10:36:07 - YISIA - INFO - 时间地理位置工具预热完成: 2026年04月15日 10:36:09
+2026-04-15 10:36:07 - YISIA - INFO - 时间地理位置服务已就绪
+2026-04-15 10:36:08 - YISIA - INFO - 免费API获取热搜成功，总计: 60 条数据
+2026-04-15 10:36:12 - YISIA - INFO - 热搜话题工具预热完成
+2026-04-15 10:36:12 - YISIA - INFO - 热点话题服务已就绪
+2026-04-15 10:36:12 - YISIA - INFO - 正在启动定时更新管理器...
+2026-04-15 10:36:12 - YISIA - INFO - 内容更新循环开始
+2026-04-15 10:36:12 - YISIA - INFO - 开始执行定时更新：2026-04-15 10:36:12
+2026-04-15 10:36:12 - YISIA - INFO - 模拟用户生成循环开始
+2026-04-15 10:36:12 - YISIA - INFO - 正在更新热点话题...
+2026-04-15 10:36:12 - YISIA - INFO - API Key定期检测循环开始
+2026-04-15 10:36:12 - YISIA - INFO - 用户记忆挖掘循环开始
+2026-04-15 10:36:12 - YISIA - INFO - 定时更新管理器已启动，内容更新间隔：14400s，记忆挖掘间隔：7200s
+2026-04-15 10:36:12 - YISIA - INFO - 定时更新管理器已启动
+2026-04-15 10:36:12 - YISIA - INFO - 正在启动热搜刷新管理器...
+2026-04-15 10:36:12 - YISIA - INFO - 热搜后台刷新管理器已启动
+2026-04-15 10:36:12 - YISIA - INFO - 热搜刷新管理器已启动
+2026-04-15 10:36:12 - YISIA - INFO - 正在启动自进化管理器...
+2026-04-15 10:36:12 - YISIA - INFO - Self-evolution manager started
+2026-04-15 10:36:12 - YISIA - INFO - 自进化管理器已启动
+2026-04-15 10:36:12 - YISIA - INFO - 正在启动工作记录截图管理器...
+2026-04-15 10:36:12 - YISIA - INFO - 截图管理器已启动
+2026-04-15 10:36:12 - YISIA - INFO - 用户画像服务已就绪
+2026-04-15 10:36:12 - YISIA - INFO - 纠错检测服务已就绪
+2026-04-15 10:36:12 - YISIA - INFO - No active sessions, skip analysis
+2026-04-15 10:36:12 - YISIA - INFO - 所有基础服务初始化完成，耗时 5.83 秒
+2026-04-15 10:36:12 - YISIA - INFO - Knowledge management start, size: 133
+2026-04-15 10:36:12 - YISIA - INFO - Using 133 embeddings for dedup...
+2026-04-15 10:36:12 - YISIA - INFO - [Metrics] 已启动每小时统计定时器，间隔3600秒
+2026-04-15 10:36:12 - YISIA - INFO - YISIA （算法侧API）启动成功
+2026-04-15 10:36:13 - YISIA - INFO - 免费API获取热搜成功，总计: 60 条数据
+2026-04-15 10:36:14 - YISIA - INFO - 热点话题获取成功：2026-04-15 10:36:12
+2026-04-15 10:36:14 - YISIA - INFO - 正在更新时尚资讯...
+2026-04-15 10:36:14 - YISIA - WARNING - 时尚门户获取失败，返回空结果
+2026-04-15 10:36:14 - YISIA - INFO - 正在使用外来知识服务更新...
+2026-04-15 10:36:14 - YISIA - INFO - Cosine dedup removed: 7
+2026-04-15 10:36:14 - YISIA - INFO - Knowledge management done: removed=0, similar_removed=7, current_size=126
+2026-04-15 10:36:15 - YISIA - INFO - 免费API获取热搜成功，总计: 60 条数据
+2026-04-15 10:37:12 - YISIA - INFO - [Key定期检测] 开始检测...
+2026-04-15 10:37:14 - YISIA - INFO - [Key定期检测] aliyun Key 1 ✅ 可用
+2026-04-15 10:37:16 - YISIA - INFO - [Key定期检测] aliyun Key 2 ✅ 可用
+2026-04-15 10:37:18 - YISIA - INFO - [Key定期检测] aliyun Key 3 ✅ 可用
+2026-04-15 10:37:18 - YISIA - INFO - [Key定期检测] aliyun 有效Key: 3
+2026-04-15 10:42:36 - YISIA - INFO - 外来知识更新完成: 0 条数据
+2026-04-15 10:42:36 - YISIA - INFO - 缓存更新完成
+2026-04-15 10:42:36 - YISIA - INFO - 定时更新完成
+2026-04-15 10:46:13 - YISIA - INFO - No active sessions, skip analysis
+2026-04-15 10:56:13 - YISIA - INFO - No active sessions, skip analysis
+2026-04-15 11:06:14 - YISIA - INFO - No active sessions, skip analysis
+2026-04-15 11:06:16 - YISIA - INFO - Knowledge management start, size: 126
+2026-04-15 11:06:16 - YISIA - INFO - Using 126 embeddings for dedup...
+2026-04-15 11:06:16 - YISIA - INFO - Cosine dedup removed: 0
+2026-04-15 11:06:16 - YISIA - INFO - Knowledge management done: removed=0, similar_removed=0, current_size=126
+2026-04-15 11:16:14 - YISIA - INFO - No active sessions, skip analysis
+2026-04-15 11:26:14 - YISIA - INFO - No active sessions, skip analysis
+2026-04-15 11:36:12 - YISIA - INFO - [每小时统计] 2026-04-15 - LLM调用=0, Token=0, 请求=0, 平均响应=0.0ms
+2026-04-15 11:36:14 - YISIA - INFO - No active sessions, skip analysis
+2026-04-15 11:36:17 - YISIA - INFO - Knowledge management start, size: 126
+2026-04-15 11:36:17 - YISIA - INFO - Using 126 embeddings for dedup...
+2026-04-15 11:36:17 - YISIA - INFO - Cosine dedup removed: 0
+2026-04-15 11:36:17 - YISIA - INFO - Knowledge management done: removed=0, similar_removed=0, current_size=126
+2026-04-15 11:46:15 - YISIA - INFO - No active sessions, skip analysis
+2026-04-15 11:56:15 - YISIA - INFO - No active sessions, skip analysis
+2026-04-15 12:06:15 - YISIA - INFO - No active sessions, skip analysis
+2026-04-15 12:06:18 - YISIA - INFO - Knowledge management start, size: 126
+2026-04-15 12:06:18 - YISIA - INFO - Using 126 embeddings for dedup...
+2026-04-15 12:06:18 - YISIA - INFO - Cosine dedup removed: 0
+2026-04-15 12:06:18 - YISIA - INFO - Knowledge management done: removed=0, similar_removed=0, current_size=126
+2026-04-15 12:16:16 - YISIA - INFO - No active sessions, skip analysis
+2026-04-15 12:26:04 - YISIA - INFO - 开始关闭基础服务...
+2026-04-15 12:26:04 - YISIA - INFO - 热搜后台刷新管理器已停止
+2026-04-15 12:26:04 - YISIA - INFO - 热搜刷新管理器已停止
